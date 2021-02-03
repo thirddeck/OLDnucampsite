@@ -1,21 +1,19 @@
 {
-  "name": "nucampsite",
+  "name": "git-test",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "description": "Git and Node",
   "main": "index.html",
   "scripts": {
-    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
- },
-  "author": "samFM",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
   }
 }
